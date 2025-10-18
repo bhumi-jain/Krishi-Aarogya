@@ -72,55 +72,55 @@ The system operates in **three intelligent phases** to deliver end-to-end suppor
 ## 🖼️ Screenshots
 
 ### 🌱 Home Page
-![Home Page](assets/screenshots/home_page.png)
+![Home Page](assets/home_page.png)
 
 ---
 
 ### ☀️ Prediction Page
-![Prediction Page](assets/screenshots/prediction1.png)
+![Prediction Page](assets/prediction1.png)
 
 ---
 
 ### 🔍 Disease Detection (Two-Step Verification) Step-1
-![Detection - (AI Model)](assets/screenshots/detection1.png)
-![Detection -  (Agronomist Verification)](assets/screenshots/detection2.jpg)
+![Detection - (AI Model)](assets/detection1.png)
+![Detection -  (Agronomist Verification)](assets/detection2.jpg)
 
 ---
 
 ### 👨‍🌾 Agronomist Consultation (Step-2)
-![Agronomist Consultation](assets/screenshots/agromist1.png)
+![Agronomist Consultation](assets/agromist1.png)
 
 ---
 
 ### 📍 Locator Feature (Nearby Fertilizer/Pesticide Shops)
-![Locator](assets/screenshots/locater.jpg)
+![Locator](assets/locater.jpg)
 
 ---
 
 ### 🧭 Crop Management Dashboard
-![Management Dashboard](assets/screenshots/management1.png)
+![Management Dashboard](assets/management1.png)
 
 
 
 ---
 
 ### 🌾 Disease Causes
-![Causes](assets/screenshots/causes.jpg)
+![Causes](assets/causes.jpg)
 
 ---
 
 ### 💊 Treatment Recommendations
-![Treatment](assets/screenshots/treatment.jpg)
+![Treatment](assets/treatment.jpg)
 
 ---
 
 ### ⚠️ Disease Symptoms
-![Symptoms](assets/screenshots/symptom.jpg)
+![Symptoms](assets/symptom.jpg)
 
 ---
 
 ### 🌿 Organic Treatment Options
-![Organic Treatment](assets/screenshots/organictreatment.jpg)
+![Organic Treatment](assets/organictreatment.jpg)
 
 🎥 **Demo Video:** *([Google Drive Link](https://drive.google.com/file/d/1gEQHj30UwEljCkd8rE2pufuAUUi5ddAG/view?usp=drivesdk))*
 
