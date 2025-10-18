@@ -1,0 +1,38 @@
+{
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "type": "module"
+    },
+    "dependencies": {
+        "@aws-sdk/client-translate": "^3.699.0",
+        "@emotion/react": "^11.13.5",
+        "@emotion/styled": "^11.13.5",
+        "@fortawesome/free-brands-svg-icons": "^6.7.1",
+        "@fortawesome/free-solid-svg-icons": "^6.7.1",
+        "@fortawesome/react-fontawesome": "^0.2.2",
+        "@mui/icons-material": "^6.1.10",
+        "@mui/material": "^6.1.10",
+        "axios": "^1.7.7",
+        "framer-motion": "^11.13.1",
+        "https-proxy-agent": "^7.0.6",
+        "i18next": "^23.15.1",
+        "leaflet": "^1.9.4",
+        "next": "^15.1.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-i18next": "^15.0.1",
+        "react-icons": "^5.4.0",
+        "react-intersection-observer": "^9.13.1",
+        "react-leaflet": "^4.2.1",
+        "react-lottie": "^1.2.10",
+        "react-slick": "^0.30.2",
+        "slick-carousel": "^1.8.1",
+        "twilio": "^5.3.7"
+    }
+}

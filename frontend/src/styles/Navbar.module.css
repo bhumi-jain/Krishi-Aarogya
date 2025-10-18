@@ -1,0 +1,210 @@
+/* Navbar */
+.navbar {
+  padding: 0;
+  background: linear-gradient(135deg, #2ee52e, #3CB371);
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Navigation Links */
+.navLinks {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 50px;
+  margin-right: auto; /* Push links to the left */
+}
+
+.navLinks li {
+  flex-grow: 1; /* Ensures each link gets equal width */
+  text-align: center; /* Centers the text within each link container */
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navLinks li a:hover {
+  transform: translateY(-2px);
+  color: hsl(62, 85%, 65%);
+  border-bottom: 2px solid hsl(62, 85%, 65%);
+}
+
+/* Login Button */
+.loginButton {
+  background-color: #0070f3;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-left: auto; /* Push login button to the right */
+}
+
+.loginButton:hover {
+  background-color: #005bb5;
+}
+
+/* Top Bar */
+.topBar {
+  background-color: white;
+  color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 30px;
+  height: 80px;
+}
+
+.leftTopBar {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* Space between logo and dropdown */
+}
+
+.centerTopBar {
+  flex: 2; /* Ensure it takes the central position */
+  display: flex;
+  justify-content: center; /* Center aligns sliding text */
+  align-items: center;
+  overflow: hidden; /* Prevent overflow from the sliding text */
+}
+
+.rightTopBar {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  gap: 20px;
+}
+.rightTopBar :hover{
+  font-weight: bold;
+  
+  transform: scale(1.1);
+
+}
+.languageSelector {
+  cursor: pointer;
+  font-weight: 600; /* Bold for clarity */
+  padding: 8px 15px; /* Increase padding for better appearance */
+  border-radius: 5px; /* Rounded edges */
+  background-color: #fff; /* White background for contrast */
+  border: 2px solid #1e9f1e; /* Green border to match theme */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  height: 60px;
+}
+
+.languageSelector:hover {
+  background-color: #dfe8dfaf;
+  color: #fff;
+}
+
+/* Sliding Text */
+.slidingText {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 80%; /* Restrict to middle section */
+  position: relative; 
+}
+
+.slidingText p {
+  display: inline-block;
+  animation: slide 20s linear infinite;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #f28a0c;
+}
+
+/* Sliding Animation */
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Logo */
+.logo img {
+  display: flex;
+  height: 100px;
+  width: auto;
+  transition: transform 0.3s ease;
+  margin-right: 20px; /* Space between logo and nav links */
+}
+
+.logo img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Responsive Adjustments for Small Screens */
+@media (max-width: 768px) {
+  .navLinks {
+    flex-direction: column; /* Stack links vertically */
+    align-items: center;
+    gap: 15px;
+  }
+
+  .loginButton {
+    margin-left: 0; /* Reset margin for small screens */
+  }
+}
+
+/* Profile Menu Dropdown */
+.profileMenu {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  z-index: 1000;
+}
+
+.profileMenu p {
+  margin: 0;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Logout Button */
+.profileMenu button {
+  background-color: #f44336;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.profileMenu button:hover {
+  background-color: #d32f2f;
+}

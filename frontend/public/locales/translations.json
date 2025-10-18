@@ -1,0 +1,103 @@
+{
+    "en": {
+      "home": "Home",
+      "cropAnalysis": "Crop Analysis",
+      "outbreakAlerts": "Outbreak Alerts",
+      "community": "Community",
+      "pharmacistLocator": "Pharmacist Locator",
+      "education": "Education",
+      "login": "Login",
+      "signup": "Signup"
+    },
+    "hi": {
+      "home": "मुख्य पृष्ठ",
+      "cropAnalysis": "फसल विश्लेषण",
+      "outbreakAlerts": "प्रकोप अलर्ट",
+      "community": "समुदाय",
+      "pharmacistLocator": "फार्मासिस्ट लोकेटर",
+      "education": "शिक्षा",
+      "login": "लॉग इन करें",
+      "signup": "साइन अप करें"
+    },
+    "ta": {
+      "home": "முகப்பு",
+      "cropAnalysis": "பயிர் பகுப்பாய்வு",
+      "outbreakAlerts": "நோய் பரவல் எச்சரிக்கை",
+      "community": "சமூகம்",
+      "pharmacistLocator": "மருந்தாளர் கண்டறியுக",
+      "education": "கல்வி",
+      "login": "உள்நுழைய",
+      "signup": "பதிவு செய்யவும்"
+    },
+    "te":{
+        "home": "హోమ్",
+        "cropAnalysis": "పంట విశ్లేషణ",
+        "outbreakAlerts": "ప్రకోప హెచ్చరికలు",
+        "community": "సముదాయం",
+        "pharmacistLocator": "ఫార్మాసిస్ట్ లొకేటర్",
+        "education": "విద్య",
+        "login": "లాగిన్ చేయండి",
+        "signup": "సైన్ అప్ చేయండి"
+      },
+    "kn":{
+        "home": "ಮುಖಪುಟ",
+        "cropAnalysis": "ಬಳೆ ವಿಶ್ಲೇಷಣೆ",
+        "outbreakAlerts": "ರೋಗದ ವ್ಯಾಪಕತೆಯ ಎಚ್ಚರಿಕೆ",
+        "community": "ಸಮುದಾಯ",
+        "pharmacistLocator": "ಔಷಧಗಾರರ ಪತ್ತೆಗಾರ",
+        "education": "ಶಿಕ್ಷಣ",
+        "login": "ಲಾಗಿನ್ ಮಾಡಿ",
+        "signup": "ಸೈನ್ ಅಪ್ ಮಾಡಿ"
+      },
+    "ml":{
+        "home": "ഹോം",
+        "cropAnalysis": "വിള വിവരണം",
+        "outbreakAlerts": "രോഗപ്രസര മുന്നറിയിപ്പ്",
+        "community": "സമൂഹം",
+        "pharmacistLocator": "ഫാർമസിസ്റ്റ് ലൊക്കേറ്റർ",
+        "education": "വിദ്യാഭ്യാസം",
+        "login": "ലോഗിൻ ചെയ്യുക",
+        "signup": "സൈൻ അപ്പ് ചെയ്യുക"
+      },
+    "gu":{
+        "home": "મુખ્ય પૃષ્ઠ",
+        "cropAnalysis": "ખેતરનું વિશ્લેષણ",
+        "outbreakAlerts": "પ્રકોપ ચેતવણી",
+        "community": "સમુદાય",
+        "pharmacistLocator": "ફાર્માસિસ્ટ લૉકેટર",
+        "education": "શિક્ષણ",
+        "login": "લોગિન કરો",
+        "signup": "સાઇન અપ કરો"
+      },
+    "mr":{
+        "home": "मुखपृष्ठ",
+        "cropAnalysis": "पिक विश्लेषण",
+        "outbreakAlerts": "प्रकोप चेतावणी",
+        "community": "समाज",
+        "pharmacistLocator": "फार्मासिस्ट शोधा",
+        "education": "शिक्षण",
+        "login": "लॉग इन करा",
+        "signup": "साइन अप करा"
+      },
+    "pa":{
+        "home": "ਮੁੱਖ ਪੰਨਾ",
+        "cropAnalysis": "ਫ਼ਸਲ ਵਿਸ਼ਲੇਸ਼ਣ",
+        "outbreakAlerts": "ਪ੍ਰਕੋਪ ਚੇਤਾਵਨੀ",
+        "community": "ਸਮੁਦਾਇਕ",
+        "pharmacistLocator": "ਫਾਰਮਾਸਿਸਟ ਲੋਕੇਟਰ",
+        "education": "ਸਿੱਖਿਆ",
+        "login": "ਲੌਗ ਇਨ ਕਰੋ",
+        "signup": "ਸਾਈਨ ਅਪ ਕਰੋ"
+      },
+    "bn":{
+        "home": "হোম",
+        "cropAnalysis": "ফসল বিশ্লেষণ",
+        "outbreakAlerts": "প্রকোপ সতর্কতা",
+        "community": "সম্প্রদায়",
+        "pharmacistLocator": "ফার্মাসিস্ট লোকেটার",
+        "education": "শিক্ষা",
+        "login": "লগইন করুন",
+        "signup": "নিবন্ধন করুন"
+      }                       
+}
+  

@@ -1,0 +1,137 @@
+/* Fullscreen overlay for the modal */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   /* Light overlay with white tint */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px); /* Subtle blur for a modern look */
+}
+
+/* Auth modal container */
+.authModal {
+  position: relative;
+  width: 400px;
+  padding: 30px 40px;
+  background: #fdfbee; /* Off-white background for warmth */
+  border: 2px solid #d8b384; /* Earthy border color */
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 128, 0, 0.2); /* Soft green shadow for depth */
+  animation: fadeIn 0.5s ease;
+  text-align: center;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Close button */
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #9e6b1f; /* Earthy brown color */
+  transition: color 0.3s;
+}
+
+.closeButton:hover {
+  color: #734f16;
+}
+
+/* Heading */
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4e8d40; /* Vibrant green for trust and freshness */
+}
+
+/* Subheading */
+.subheading {
+  font-size: 1rem;
+  color: #6d9e56; /* Softer green for a complementary look */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input field */
+.inputField {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 1px solid #c2c2a3; /* Subtle beige tone for natural look */
+  border-radius: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.inputField:focus {
+  border-color: #88b04b; /* Bright green for focus state */
+  box-shadow: 0 0 8px rgba(136, 176, 75, 0.5);
+  outline: none;
+}
+
+/* Auth button */
+.authButton {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #88b04b, #6c934c); /* Vibrant gradient for action button */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.authButton:hover {
+  background: linear-gradient(135deg, #6c934c, #88b04b); /* Reverse gradient on hover */
+  transform: translateY(-2px);
+}
+
+/* Message styling */
+.message {
+  font-size: 0.9rem;
+  color: #d8572a; /* Rustic orange for error or success messages */
+  margin-top: 10px;
+}
+
+/* Toggle text */
+.toggle {
+  font-size: 0.9rem;
+  color: #6d9e56; /* Subtle green for toggle text */
+  margin-top: 20px;
+}
+
+.toggleLink {
+  color: #9e6b1f; /* Earthy brown for action links */
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.toggleLink:hover {
+  color: #734f16;
+}

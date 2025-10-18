@@ -1,0 +1,133 @@
+.footer {
+  background-color: white;
+  color: #000;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align the sections at the same height */
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.logoSection {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerLogo {
+  height: 118px; /* Adjust the size as needed */
+  width: auto;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.socialMedia a {
+  color: #000;
+  font-size: 1.4rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.socialMedia a:hover {
+  color: #0073e6;
+  transform: scale(1.1);
+}
+
+.aboutSection {
+  flex: 2;
+  padding: 20px;
+  text-align: left;
+}
+
+.footerTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #66bb6a;
+}
+
+.footerDescription {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  text-align: justify;
+  max-width: 400px;
+}
+
+.linksSection {
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.footerQuickLinks {
+  list-style: none;
+  padding: 0;
+}
+
+.footerQuickLinks li {
+  margin-bottom: 10px;
+}
+
+.footerQuickLinks a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footerQuickLinks a:hover {
+  color: #66bb6a; /* Hover effect for Quick Links */
+}
+
+.footerQuickLinksTitle {
+  color: #66bb6a; /* Same color as KRISHI AAROGYA title */
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.divider {
+  margin: 20px 0;
+  border-color: #ddd;
+}
+
+.footerCopy {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .aboutSection {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .linksSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerQuickLinks {
+    text-align: center;
+  }
+}
